@@ -16,3 +16,12 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
+
+#contatos {
+color: rgb(255, 255, 255);
+    text-decoration: none;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
