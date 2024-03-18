@@ -1,0 +1,88 @@
+body {
+    background-color: #1E1E1E;
+}
+
+#header{
+    background-color: #E9BA16;
+    border: solid #E9BA16 20px;
+    
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 12em;
+    
+}
+
+#header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#categorias{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2.5em;
+}
+
+#categorias img{
+    width: 422px;
+    height: 725px;
+    padding: 50px; 
+}
+
+#pc{
+    animation-duration: 0.50s;
+    animation-name: deixar;
+}
+
+#hardare{
+    animation-duration: 0.50s;
+    animation-name: deixar;
+}
+
+#perifericos{
+    animation-duration: 0.50s;
+    animation-name: deixar;
+}
+
+#pc:hover{ 
+	animation-name: passar;
+    animation-duration: 0.50s;
+}
+
+#hardware:hover{ 
+	
+	animation-name: passar;
+    animation-duration: 0.50s;
+}
+
+#perifericos:hover{ 
+	
+	animation-name: passar;
+    animation-duration: 0.50s;
+}
+
+@keyframes passar{
+    from {
+        transform: scale(1);
+        filter: brightness(100%)
+    }
+   to {
+    transform: scale(1.1);
+    filter: brightness(50%)
+    }
+  }
+
+  @keyframes deixar{
+    from {
+        transform: scale(1.1);
+        filter: brightness(50%)
+    }
+   to {
+    transform: scale(1);
+    filter: brightness(100%)
+    }
+  }

@@ -1,0 +1,43 @@
+body {
+    background-color: #1E1E1E;
+}
+
+#header{
+    background-color: #E9BA16;
+    border: solid #E9BA16 20px;
+    
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 12em;
+    
+}
+
+#header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#produtos{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+}
+
+#produtos img{
+    border: solid wheat;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 8em;
+    height: 300px;
+    width: 215px;
+}
+
+#produtos h2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    
+}

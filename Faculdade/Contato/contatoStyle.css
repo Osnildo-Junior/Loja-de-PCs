@@ -1,0 +1,18 @@
+body {
+    background-color: #1E1E1E; 
+}
+
+#header{
+    background-color: #E9BA16;
+    border: solid #E9BA16 20px;
+    
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 12em;
+}
+#header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
